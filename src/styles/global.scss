@@ -1,0 +1,15 @@
+.swiper-button-prev, .swiper-button-next{
+  color: var(--chakra-colors-yellow-800);
+
+  &.swiper-button-disabled{
+    opacity: 0.5;
+  }
+} 
+
+.swiper-pagination-bullet-active{
+  background-color: var(--chakra-colors-yellow-800);
+}
+
+.swipper-small .swiper-button-next:after, .swipper-small .swiper-button-prev:after{
+  font-size: 30px;
+}
